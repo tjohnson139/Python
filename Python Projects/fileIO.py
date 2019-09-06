@@ -9,7 +9,3 @@ for name in os.listdir(fPath):
     path = os.path.join(fPath, name)
     if path.endswith('.txt'):
         print(path + ' was modified ' + time.strftime('%m/%d/%Y', time.gmtime(os.path.getmtime(path))))
-
-'''
-
-'''
